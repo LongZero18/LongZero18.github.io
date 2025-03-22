@@ -42,8 +42,7 @@ const categorias = {
   "Equipo Religioso y Médico": [
     { nombre: "Agua sagrada (frasco)", precio: 30.00 },
     { nombre: "Símbolo religioso (plata)", precio: 20.00 },
-    { nombre: "Vendas para heridas x1", precio: 20.00 },
-    { nombre: "Kit de curación", precio: 30.00 }
+    { nombre: "Vendas para heridas x1", precio: 20.00 }
   ],
   "Equipo diverso": [
     { nombre: "Aceite para quemar (frasco)", precio: 10.00 },
