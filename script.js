@@ -26,37 +26,45 @@ const categorias = {
     { nombre: "Escudo", precio: 50.00, defensa: +1 },
   ],
   "Equipo de Iluminación": [
-    { nombre: "Antorcha (1 hora)", precio: 20.00 },
-    { nombre: "Farol con capuchón (4 horas)", precio: 20.00 },
-    { nombre: "Farol de ojo de buey (4 horas)", precio: 20.00 },
-    { nombre: "Yesca y pedernal", precio: 20.00 }
+    { nombre: "Antorcha (1 hora)", precio: 0.01 },
+    { nombre: "Farol con capuchón (4 horas)", precio: 7.00 },
+    { nombre: "Farol de ojo de buey (4 horas)", precio: 12.00 },
+    { nombre: "Yesca y pedernal", precio: 0.0 }
   ],
   "Equipo de Supervivencia": [
-    { nombre: "Cantimplora (2 litros)", precio: 20.00 },
-    { nombre: "Cuerda común (15 metros)", precio: 20.00 },
-    { nombre: "Mochila (10 kg capacidad)", precio: 20.00 },
-    { nombre: "Raciones comunes (1 día)", precio: 20.00 },
-    { nombre: "Raciones de viaje (1 día)", precio: 20.00 },
-    { nombre: "Saco de dormir", precio: 20.00 }
+    { nombre: "Cantimplora (2 litros)", precio: 1.00 },
+    { nombre: "Cuerda común (15 metros)", precio: 1.00 },
+    { nombre: "Mochila (10 kg capacidad)", precio: 10.00 },
+    { nombre: "Raciones comunes (1 día)", precio: 0.50 },
+    { nombre: "Raciones de viaje (1 día)", precio: 1.00 },
+    { nombre: "Saco de dormir", precio: 0.20 }
   ],
   "Equipo Religioso y Médico": [
-    { nombre: "Agua sagrada (frasco)", precio: 30.00 },
-    { nombre: "Símbolo religioso (plata)", precio: 20.00 },
-    { nombre: "Vendas para heridas x1", precio: 20.00 }
+    { nombre: "Agua sagrada (frasco)", precio: 25.00 },
+    { nombre: "Símbolo religioso (plata)", precio: 25.00 },
+    { nombre: "Vendas para heridas x1", precio: 0.10 },
+  ],
+  "Posadas": [
+    { nombre: "Posada modesta", precio: 0.50 },
+    { nombre: "Posada corriente", precio: 1.00 },
+    { nombre: "Posada lujosa", precio: 3.00 },
+    { nombre: "Comida corriente", precio: 0.20 },
+    { nombre: "Botella de vino", precio: 2.00 },
+    { nombre: "Jarra de cerveza", precio: 1.00 },
   ],
   "Equipo diverso": [
-    { nombre: "Aceite para quemar (frasco)", precio: 10.00 },
-    { nombre: "Carcaj y 20 flechas", precio: 20.00 },
+    { nombre: "Aceite para quemar (frasco)", precio: 0.50 },
+    { nombre: "Carcaj y 20 flechas", precio: 0.80 },
     { nombre: "Espejo, pequeño de acero", precio: 20.00 },
-    { nombre: "Estacas (4) y maza de madera", precio: 20.00 },
-    { nombre: "Garfio de escalada", precio: 20.00 },
-    { nombre: "Herramientas de ladrón", precio: 20.00 },
-    { nombre: "Instrumento musical", precio: 20.00 },
-    { nombre: "Libro de conjuros (50 hojas)", precio: 20.00 },
-    { nombre: "Palanca", precio: 20.00 },
-    { nombre: "Pértiga de madera (3 metros)", precio: 20.00 },
-    { nombre: "Piquetas de hierro (10)", precio: 20.00 },
-    { nombre: "Saco (10 kilos)", precio: 20.00 }
+    { nombre: "Estacas (4) y maza de madera", precio: 3.00 },
+    { nombre: "Garfio de escalada", precio: 1.00 },
+    { nombre: "Herramientas de ladrón", precio: 25.00 },
+    { nombre: "Instrumento musical", precio: 5.00 },
+    { nombre: "Libro de conjuros (50 hojas)", precio: 25.00 },
+    { nombre: "Palanca", precio: 0.20 },
+    { nombre: "Pértiga de madera (3 metros)", precio: 0.20 },
+    { nombre: "Piquetas de hierro (10)", precio: 0.50 },
+    { nombre: "Saco (10 kilos)", precio: 0.20 }
   ]
 };
 
