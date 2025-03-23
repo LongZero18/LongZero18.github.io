@@ -103,7 +103,7 @@ for (const categoriaNombre in categorias) {
       if (campo === "Cantidad") {
         const cantidadInput = document.createElement("input");
         cantidadInput.type = "number";
-        cantidadInput.value = 1;
+        cantidadInput.value = 0;
         cantidadInput.min = 0;
         cantidadInput.addEventListener("change", actualizarTotal);
         celda.appendChild(cantidadInput);
