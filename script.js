@@ -19,11 +19,11 @@ const categorias = {
     { nombre: "Espada a dos manos", precio: 30.00, daño: "1d10" }
   ],
   "Armaduras": [
-    { nombre: "Cuero", precio: 150.00, defensa: +2 },
-    { nombre: "Anillos", precio: 100.00, defensa: +3 },
-    { nombre: "Mallas", precio: 50.00, defensa: +4 },
-    { nombre: "Placas*", precio: 50.00, defensa: +6 },
-    { nombre: "Escudo", precio: 50.00, defensa: +1 },
+    { nombre: "Cuero", precio: 5.00, defensa: +2 },
+    { nombre: "Anillos", precio: 30.00, defensa: +3 },
+    { nombre: "Mallas", precio: 75.00, defensa: +4 },
+    { nombre: "Placas*", precio: 100.00, defensa: +6 },
+    { nombre: "Escudo", precio: 15.00, defensa: +1 },
   ],
   "Equipo de Iluminación": [
     { nombre: "Antorcha (1 hora)", precio: 0.01 },
