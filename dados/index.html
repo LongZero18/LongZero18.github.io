@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirador de dados para juegos de rol</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dice-animation.css">
+</head>
+<body>
+    <h1>Tirador de dados</h1>
+
+    <form id="formulario-dados">
+        <div>
+            <label for="cantidad">Cantidad de dados:</label>
+            <input type="number" id="cantidad" min="1" max="10" value="1">
+        </div>
+
+        <div>
+            <label for="tipo">Tipo de dado:</label>
+            <select id="tipo">
+                <option value="4">d4</option>
+                <option value="6">d6</option>
+                <option value="8">d8</option>
+                <option value="10">d10</option>
+                <option value="12">d12</option>
+                <option value="20">d20</option>
+                <option value="100">d100</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" id="ventaja">
+            <label for="ventaja">Ventaja</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="desventaja">
+            <label for="desventaja">Desventaja</label>
+        </div>
+
+        <button type="button" id="boton-tirar">Tirar dados</button>
+    </form>
+
+    <div id="resultado">
+        </div>
+
+    <script src="script.js"></script>
+    <script src="dice-animation.js"></script>
+</body>
+</html>

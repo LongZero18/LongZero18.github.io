@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selector de Personaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Crea tu Personaje</h1>
+
+    <div id="contenedorNombres">
+        <label for="nombrePrincipal">Nombre Principal:</label>
+        <input type="text" id="nombrePrincipal">
+
+        <label for="nombreSecundario">Nombre Secundario:</label>
+        <input type="text" id="nombreSecundario">
+    </div>
+
+   
+
+    <label for="raza">Raza:</label>
+    <select id="raza"></select>
+
+    <label for="clase">Clase:</label>
+    <select id="clase"></select>
+
+    <div style="display: flex;">
+        <div id="fichaPersonaje"></div>
+        <div id="atributosPersonaje"></div>
+        <div id="limitacionesClase"></div>
+        <div id="contenedorTrasfondo"></div>
+    </div>
+
+    <button onclick="guardarPersonaje()">Guardar Personaje</button>
+    <button onclick="cargarPersonaje()">Cargar Personaje</button>
+    
+    <script src="razas.js"></script>
+    <script src="clases.js"></script>
+    <script src="atributos.js"></script>
+    <script src="script.js"></script>
+    <script src="nombrePersonajes.js"></script>
+    <script src="trasfondoPersonaje.js"></script>
+    <script src="guardadoPersonaje.js"></script>
+</body>
+</html>
